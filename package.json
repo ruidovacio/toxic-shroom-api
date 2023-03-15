@@ -1,0 +1,19 @@
+{
+  "name": "toxic-shroom-api",
+  "version": "1.0.0",
+  "description": "toxic shroom database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruidovacio/toxic-shroom-api"
+  },
+  "author": "ruidovacio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruidovacio/toxic-shroom-api/issues"
+  },
+  "homepage": "https://github.com/ruidovacio/toxic-shroom-api#readme"
+}
