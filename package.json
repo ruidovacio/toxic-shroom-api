@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ruidovacio/toxic-shroom-api/issues"
   },
-  "homepage": "https://github.com/ruidovacio/toxic-shroom-api#readme"
+  "homepage": "https://github.com/ruidovacio/toxic-shroom-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
