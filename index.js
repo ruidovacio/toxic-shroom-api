@@ -4,28 +4,20 @@ const shroomapp = express();
 const shroombase = require('./database/hongosLista.json')
 
 shroomapp.get('/', (req, res) => {
-    res.send('toxic-shrrom-aaaapi');
+    res.send('toxic-shrrom-api');
 })
 
 shroomapp.get('/api/mushrooms', (req, res) => {
-    //definir si quiere la lista total o la concisa
-    //lista concisa: que no tenga registros vacios
-    const lista = req.query.list
-    let base;
-    if (lista === 'concise'){
-        base = shroombase.filter(el => el.img != '' && el.commonname != '' && el.distribution != '')
-    } else { base = shroombase }
+    res.send(shroombase);
+})
 
-    //query del tipo de hongo
-    const tipo = req.query.type;
-    if (tipo === 'poisonous' || tipo === 'deadly') {
-        const resultado = base.filter(el => el.type === tipo);
+shroomapp.get('/api/mushrooms/:type',(req,res)=>{
+    const tipo = req.params.type
+    if(tipo != 'poisonous' || tipo != 'deadly'){
+        const resultado = shroombase.filter(el => el.type === tipo)
         res.send(resultado);
     } else {
-        if (!tipo) {
-            res.send(base)
-        } else {
-        }
+        res.status(400).send("Incorrect type");
     }
 })
 
@@ -37,7 +29,7 @@ shroomapp.get('/api/randomshroom',(req,res)=>{
 shroomapp.get('/api/randompic', (req, res) => {
     const filtroLista = shroombase.filter(el => el.img != '')
     const rndIndex = Math.floor(Math.random() * filtroLista.length);
-    res.send(`<img src=${filtroLista[rndIndex].img}>`);
+    res.send(filtroLista[rndIndex].img);
 })
 
 
