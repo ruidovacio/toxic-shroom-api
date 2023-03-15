@@ -36,3 +36,5 @@ shroomapp.get('/api/randompic', (req, res) => {
 shroomapp.listen(PORT, () => {
     console.log(`Escuchando en ${PORT}`);
 })
+
+module.exports = shroomapp
