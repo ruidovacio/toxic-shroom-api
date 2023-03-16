@@ -4,7 +4,7 @@ const shroomapp = express();
 const shroombase = require('./database/hongosLista.json')
 
 shroomapp.get('/', (req, res) => {
-    res.send('toxic-shrrom-api');
+    res.sendFile(__dirname  + '/public/index.html');
 })
 
 shroomapp.get('/api/mushrooms', (req, res) => {
@@ -21,12 +21,12 @@ shroomapp.get('/api/mushrooms/:type',(req,res)=>{
     }
 })
 
-shroomapp.get('/api/randomshroom',(req,res)=>{
+shroomapp.get('/api/mushrooms/randomshroom',(req,res)=>{
     const rndIndex = Math.floor(Math.random() * shroombase.length);
     res.send(shroombase[rndIndex]);
 })
 
-shroomapp.get('/api/randompic', (req, res) => {
+shroomapp.get('/api//mushrooms/randompic', (req, res) => {
     const filtroLista = shroombase.filter(el => el.img != '')
     const rndIndex = Math.floor(Math.random() * filtroLista.length);
     res.send(filtroLista[rndIndex].img);
