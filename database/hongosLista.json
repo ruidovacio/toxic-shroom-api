@@ -274,7 +274,8 @@
     "commonname": "Great felt skirt destroying angel",
     "agent": "amanitins",
     "distribution": [
-      "Americas"
+      "North America",
+      "South America"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Amanita_magnivelaris_95937.jpg/500px-Amanita_magnivelaris_95937.jpg",
     "type": "deadly"
@@ -304,7 +305,8 @@
     "commonname": "Western destroying angel",
     "agent": "amanitins",
     "distribution": [
-      "Pacific Northwest North America"
+      "Pacific Northwest",
+      "North America"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Amanita_ocreata_79782.jpg/500px-Amanita_ocreata_79782.jpg",
     "type": "deadly"
@@ -316,7 +318,7 @@
     "distribution": [
       "Europe",
       "North Africa",
-      "Eastern Asia\n(a similar American species exist but is not published yet)"
+      "East Asia"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Amanita_pantherina_2013_G1.jpg/500px-Amanita_pantherina_2013_G1.jpg",
     "type": "poisonous"
@@ -477,7 +479,7 @@
     "commonname": "Green-spored parasol",
     "agent": "unknown",
     "distribution": [
-      "worldwide (very rare in Europe)"
+      "worldwide"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/2014-04-18_Chlorophyllum_molybdites_%28G._Mey.-_Fr.%29_Massee_415792.jpg/500px-2014-04-18_Chlorophyllum_molybdites_%28G._Mey.-_Fr.%29_Massee_415792.jpg",
     "type": "poisonous"
@@ -787,9 +789,10 @@
     "commonname": "Freckled dapperling",
     "agent": "unknown",
     "distribution": [
-      "North America Europe",
+      "North America",
+      "Europe",
       "Asia",
-      "Oceania"
+      "Australia"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Echinoderma_asperum20061022wa.jpg/500px-Echinoderma_asperum20061022wa.jpg",
     "type": "poisonous"
@@ -883,7 +886,7 @@
     "commonname": "Tender nesting polypore",
     "agent": "polyporic acid",
     "distribution": [
-      "worldwide (except South America)"
+      "worldwide"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Detail_of_a_160_mm_diameter_Hapalopilus_nidulans_or_Hapalopilus_rutilans_%28Cinnamon_Bracket_or_Tender_Nesting_Polypore%2C_D%3D_Zimtfarbener_Weichporling%2C_F%3D_Polypore_rutilant_%2C_NL%3D_Kussenvormige_houtzwam%29_white_spores_and_c_-_panoramio.jpg/500px-Detail_of_a_160_mm_diameter_Hapalopilus_nidulans_or_Hapalopilus_rutilans_%28Cinnamon_Bracket_or_Tender_Nesting_Polypore%2C_D%3D_Zimtfarbener_Weichporling%2C_F%3D_Polypore_rutilant_%2C_NL%3D_Kussenvormige_houtzwam%29_white_spores_and_c_-_panoramio.jpg",
     "type": "poisonous"
@@ -1050,7 +1053,7 @@
     "commonname": "",
     "agent": "muscarine",
     "distribution": [
-      "North",
+      "North America",
       "Central America",
       "Europe"
     ],
@@ -1251,7 +1254,7 @@
     "commonname": "Ghost fungus",
     "agent": "illudin S, illudin M, and illudosin",
     "distribution": [
-      "Oceania",
+      "Australia",
       "India"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/f/f2/500px-f2",
@@ -1272,7 +1275,7 @@
     "commonname": "Western jack-o'-lantern mushroom",
     "agent": "illudin S",
     "distribution": [
-      "America"
+      "North America"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Omphalotus_olivascens_125218.jpg/500px-Omphalotus_olivascens_125218.jpg",
     "type": "poisonous"
@@ -1364,10 +1367,10 @@
     "commonname": "Liberty cap",
     "agent": "psilocybin, psilocin, and baeocystin",
     "distribution": [
-      "America",
+      "North America",
       "Europe",
       "Asia",
-      "Oceania"
+      "Australia"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Psilocybe_semilanceata_250px.jpg/500px-Psilocybe_semilanceata_250px.jpg",
     "type": "poisonous"
@@ -1539,7 +1542,7 @@
     "agent": "norcaperatic acid",
     "distribution": [
       "North America",
-      "Eastern Asia"
+      "East Asia"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Flickr_-_Nicholas_T_-_Forrest_H._Dutlinger_Natural_Area_%28Revisited%29_%2815%29.jpg/500px-Flickr_-_Nicholas_T_-_Forrest_H._Dutlinger_Natural_Area_%28Revisited%29_%2815%29.jpg",
     "type": "poisonous"
