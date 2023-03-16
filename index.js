@@ -1,7 +1,10 @@
 const PORT = 3000;
 const express = require('express');
+const cors = require('cors');
 const shroomapp = express();
+shroomapp.use(cors);
 const shroombase = require('./database/hongosLista.json')
+
 
 shroomapp.get('/', (req, res) => {
     res.sendFile(__dirname  + '/public/index.html');
