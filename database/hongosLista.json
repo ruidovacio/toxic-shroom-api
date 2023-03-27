@@ -394,21 +394,11 @@
     "commonname": "Smith's Amanita",
     "agent": "A. smithiana toxin and 2-amino-4,5-hexadienoic acid",
     "distribution": [
-      "North America"
+      "North America",
+      "Japan"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Amanita_smithiana_1403.jpg/500px-Amanita_smithiana_1403.jpg",
     "type": "poisonous"
-  },
-  {
-    "name": "Amanita smithiana",
-    "commonname": "smith's lepidella",
-    "agent": "2-amino-4,5-hexadienoic acid",
-    "distribution": [
-      "Japan",
-      "Pacific Northwest"
-    ],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Amanita_smithiana_1403.jpg/500px-Amanita_smithiana_1403.jpg",
-    "type": "deadly"
   },
   {
     "name": "Amanita sphaerobulbosa",
@@ -506,21 +496,12 @@
   },
   {
     "name": "Clitocybe dealbata",
-    "commonname": "Ivory Funnel",
-    "agent": "muscarine",
-    "distribution": [
-      "Europe"
-    ],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Clitocybe_rivulosa_20081116w.JPG/500px-Clitocybe_rivulosa_20081116w.JPG",
-    "type": "poisonous"
-  },
-  {
-    "name": "Clitocybe dealbata",
     "commonname": "ivory funnel",
     "agent": "muscarine",
     "distribution": [
       "Europe",
       "North America"
+
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Clitocybe_dealbata.jpg/500px-Clitocybe_dealbata.jpg",
     "type": "deadly"
@@ -653,19 +634,9 @@
   {
     "name": "Cortinarius gentilis",
     "commonname": "",
-    "agent": "unknown",
-    "distribution": [
-      "Europe"
-    ],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Cortinarius_gentilis_group.jpg/500px-Cortinarius_gentilis_group.jpg",
-    "type": "poisonous"
-  },
-  {
-    "name": "Cortinarius gentilis",
-    "commonname": "",
     "agent": "orellanine",
     "distribution": [
-      ""
+      "Europe"
     ],
     "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Cortinarius_gentilis_group.jpg/500px-Cortinarius_gentilis_group.jpg",
     "type": "deadly"
